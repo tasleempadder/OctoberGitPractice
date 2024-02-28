@@ -1,0 +1,24 @@
+GITHUB CODE
+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
+
+
+GITHUB URL ADDRESS
+https://github.com/tasleempadder/OctoberGitPractice.git
+
+
+GITHUB NEW REPOSITORY COMMANDLINE
+
+echo "# OctoberGitPractice" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tasleempadder/OctoberGitPractice.git
+git push -u origin main
+
+
+PUSH AN EXISTING REPOSITORY FROM THE COMMAND LINE
+
+git remote add origin https://github.com/tasleempadder/OctoberGitPractice.git
+git branch -M main
+git push -u origin main
